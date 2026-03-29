@@ -1,0 +1,18 @@
+# ═══════════════════════════════════════════════════
+#  MARKOV CHAIN FOREX TRADER  —  Requirements
+# ═══════════════════════════════════════════════════
+
+# Core
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# Dashboard
+streamlit>=1.32
+plotly>=5.18
+
+# Data
+yfinance>=0.2.36
+
+# Optional (for faster optimization)
+scikit-learn>=1.3    # enables KMeans state method
